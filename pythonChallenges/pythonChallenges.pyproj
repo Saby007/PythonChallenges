@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ArraySequences\twoNumberSum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ArraySequences\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pythonChallenges.py" />
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArraySequences\" />
